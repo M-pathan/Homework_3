@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <style>
+        button{
+            background-color :  red ;  
+            color: white;
+            font-size: 150px;
+            cursor: pointer;
+        } 
+        body {
+            text-align: center; 
+            font-size: 100px;
+        }
+        input{
+            font-size: 100px;
+
+        }
+        p{
+            font-size: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> INTEREST CALCULATOR </h1>
+    
+    <label for="principle">Principle</label>
+    <input type="number" id="principle"><br><br>
+
+    <label for="rate">Interest Rate </label>
+    <input type="number" id="rate"><br><br>
+
+    <label for="time">Time</label>
+    <input type="number" id="time"><br><br>
+
+    <button onclick="Interest()">Calculate</button>
+     <h4>Your Result</h4>
+    <p id="res" >
+    </p>
+</body>
+<script src ="InterestCalculator.js"></script>
+</html>
